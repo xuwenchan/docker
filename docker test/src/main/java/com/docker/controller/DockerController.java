@@ -14,4 +14,10 @@ public class DockerController {
         log.info("controller:DockerController,method:hello");
         return "hello docker,this is my first test";
     }
+
+    @GetMapping("/commitTest")
+    public String commitTest(){
+        return "";
+
+    }
 }
